@@ -1,0 +1,47 @@
+.btn{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: skyblue;
+    color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 700;
+
+}
+
+.modal-wrapper{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    background: linear-gradient(rgba(0, 0, 0, 0.218),rgba(0, 0, 0, 0.218))
+}
+
+.modal{
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    margin-top: 10rem;
+    background-color: white;
+    border: solid 2px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 5px 5px 5px;
+    
+}
+
+.modal button{
+    background-color: skyblue;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    left: 438px;
+    bottom: 210px;
+}

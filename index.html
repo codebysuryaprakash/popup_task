@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="showpopup()" class="btn">Click</button>
+
+    <div id="modalone" class="modal-wrapper">
+        <div  class="modal">
+            <h1>Hi Hello! Welcome! <button  onclick="closepopup()">Close</button></h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, aliquid officia eaque iste voluptatum soluta libero repudiandae impedit id sit incidunt vel a? Facilis mollitia tempora suscipit ad provident at laboriosam quod dolore facere? Temporibus molestias assumenda dolorem exercitationem, impedit soluta aliquam voluptatibus id tenetur ipsum nobis necessitatibus, laudantium a!</p>
+        </div>
+    </div>
+
+    <script>
+        function showpopup() {
+            document.getElementById("modalone").style.display = "block"
+        }
+
+        function closepopup(){
+            document.getElementById("modalone").style.display = "none"
+        }
+    </script>
+</body>
+</html>
